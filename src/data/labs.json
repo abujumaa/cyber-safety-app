@@ -1,0 +1,56 @@
+[
+  {
+    "id": "phantom-voice",
+    "title": "Phantom Voice",
+    "description": "Learn to identify deepfake audio and protect your voice online.",
+    "isLocked": false,
+    "steps": [
+      "Listen to the two audio clips.",
+      "Identify which one sounds robotic or lacks natural breathing.",
+      "Report the suspicious clip."
+    ],
+    "quiz": [
+      {
+        "question": "What is a common sign of a deepfake audio?",
+        "options": ["Perfect pitch", "Lack of breathing sounds", "Background noise", "Loud volume"],
+        "answer": "Lack of breathing sounds"
+      }
+    ]
+  },
+  {
+    "id": "chatterbox-spy",
+    "title": "Chatterbox Spy",
+    "description": "Discover how chatbots can leak information and how to talk to them safely.",
+    "isLocked": false,
+    "steps": [
+      "Review the chat logs.",
+      "Find the message where the user shared personal information.",
+      "Rewrite the message to be safe."
+    ],
+    "quiz": [
+      {
+        "question": "Which of these is safe to share with an AI chatbot?",
+        "options": ["Your home address", "Your passwords", "Your favorite color", "Your full name"],
+        "answer": "Your favorite color"
+      }
+    ]
+  },
+  {
+    "id": "the-mind-trick",
+    "title": "The Mind Trick",
+    "description": "Understand AI manipulation and how algorithms try to keep your attention.",
+    "isLocked": true,
+    "steps": [
+      "Analyze the social media feed.",
+      "Identify the algorithm's attempt to show controversial content.",
+      "Adjust the settings to prioritize educational content."
+    ],
+    "quiz": [
+      {
+        "question": "Why do algorithms sometimes show controversial content?",
+        "options": ["To educate you", "To keep you engaged longer", "To make you happy", "To save data"],
+        "answer": "To keep you engaged longer"
+      }
+    ]
+  }
+]
