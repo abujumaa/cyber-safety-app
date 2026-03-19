@@ -56,9 +56,9 @@ export default function MissionControl() {
           {labs.map((lab) => {
             const isCompleted = completedLabs.includes(lab.id);
             return (
-              <a 
+              <Link 
                 key={lab.id} 
-                href={`/lab/${lab.id}`}
+                to={`/lab/${lab.id}`}
                 onClick={(e) => handleLabClick(e, lab)}
                 className={`relative group block p-6 rounded-2xl border transition-all ${
                   lab.isLocked 
@@ -83,7 +83,7 @@ export default function MissionControl() {
                 <div className="text-sm font-semibold uppercase tracking-wider text-cyan-500 group-hover:text-cyan-400 transition-colors">
                   {lab.isLocked ? 'Request Access' : isCompleted ? 'Replay Mission' : 'Start Mission'} &rarr;
                 </div>
-              </a>
+              </Link>
             );
           })}
         </div>
